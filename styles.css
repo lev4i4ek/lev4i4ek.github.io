@@ -73,6 +73,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+    border: 0.2px solid var(--main-grey);
 }
 
 .btn {
@@ -180,7 +181,24 @@ footer {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-device-width: 500px) {
+    .project-title {
+        font-size: 20px;
+    }
+
+    .outer-link {
+        font-size: 30px;
+    }
+
+    #btn {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 20px;
+    }
+
     #projects {
         grid-template-areas:
         'header'
@@ -191,6 +209,16 @@ footer {
         'tribute'
         'button';
     }
+
+    #navbar {
+        height: 6em;
+        gap: 1em;
+    }
+
+    .navlink {
+        font-size: 1.73em;
+    }
+
 }
 
 #projects :nth-child(1) {
