@@ -147,6 +147,7 @@ footer {
 #projects {
     background-color: var(--main-blue);
     padding: 3em 4em;
+    margin: -1px;
 
     display: grid;
     gap: 1rem;
