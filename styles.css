@@ -156,7 +156,7 @@ footer {
     'button button button';
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
     #projects {
         grid-template-areas:
         'header header'
@@ -167,7 +167,7 @@ footer {
     }
 } 
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     #projects {
         grid-template-areas:
         'header'
@@ -281,7 +281,4 @@ footer {
     gap: 30px;
     justify-content: center;
 }
-
-
-
 
