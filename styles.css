@@ -72,7 +72,7 @@ footer {
     padding-top: 20px;
     color: var(--main-white);
     position: absolute;
-    bottom: 0px;
+    bottom: -2px;
     width: 100%;
 }
 
@@ -212,12 +212,14 @@ footer {
     }
 
     #navbar {
-        height: 6em;
+        height: 9rem;
         gap: 1em;
     }
 
     .navlink {
-        font-size: 1.73em;
+        font-size: 2rem;
+        padding-top: 50px;
+        height: 94.499px;
     }
 
 }
